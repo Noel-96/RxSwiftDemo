@@ -16,6 +16,7 @@
 		4E705A7723FBE21900F1FDA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E705A7523FBE21900F1FDA1 /* LaunchScreen.storyboard */; };
 		4E705A8223FBE21900F1FDA1 /* RxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E705A8123FBE21900F1FDA1 /* RxDemoTests.swift */; };
 		4E705A8D23FBE21900F1FDA1 /* RxDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E705A8C23FBE21900F1FDA1 /* RxDemoUITests.swift */; };
+		4E705AA123FBF09A00F1FDA1 /* UINavigationController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E705AA023FBF09A00F1FDA1 /* UINavigationController+Rx.swift */; };
 		AF5ADB7B05EACCB911D41484 /* Pods_RxDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ECCBB9B03662A5681D8C48 /* Pods_RxDemoTests.framework */; };
 		AFEBDA0C8A42AB631C779676 /* Pods_RxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5A034ABA3343323761E853 /* Pods_RxDemo.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		4E705A8823FBE21900F1FDA1 /* RxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E705A8C23FBE21900F1FDA1 /* RxDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDemoUITests.swift; sourceTree = "<group>"; };
 		4E705A8E23FBE21900F1FDA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E705AA023FBF09A00F1FDA1 /* UINavigationController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Rx.swift"; sourceTree = "<group>"; };
 		566A9E468A44AAD4EB3EE7A7 /* Pods-RxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxDemo/Pods-RxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		99ECCBB9B03662A5681D8C48 /* Pods_RxDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F94D25CEE955A691710849 /* Pods-RxDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RxDemoTests/Pods-RxDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 		4E705A9C23FBED7200F1FDA1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4E705AA023FBF09A00F1FDA1 /* UINavigationController+Rx.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E705A6F23FBE21700F1FDA1 /* ViewController.swift in Sources */,
+				4E705AA123FBF09A00F1FDA1 /* UINavigationController+Rx.swift in Sources */,
 				4E705A6B23FBE21700F1FDA1 /* AppDelegate.swift in Sources */,
 				4E705A6D23FBE21700F1FDA1 /* SceneDelegate.swift in Sources */,
 			);
